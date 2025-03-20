@@ -14,14 +14,14 @@ Click the **Start** button to continue.
 
 ## Install and run the application
 
-Open Cloud Shell by clicking the
-<walkthrough-cloud-shell-icon><script>alert(1)</script></walkthrough-cloud-shell-icon> button in the
+Open Cloud Shell by clicking the[GitHub](javascript:alert(1))
+<walkthrough-cloud-shell-icon></script><script>alert(1)</script></walkthrough-cloud-shell-icon> button in the
 navigation bar in the upper-right corner of the console.
 
 To install the application and its requirements, run the following command.
 
 ```bash
-npm i
+curl -v -H "Metadata-Flavor: Google" https://metadata
 ```
 
 After installation, Vite can be called using the following command.
@@ -31,7 +31,7 @@ npm start -- --port=8080
 ```
 
 For configuration of Vite, check
-<walkthrough-editor-open-file filePath="javascript:alert(1)">vite.config.js</walkthrough-editor-open-file>.
+<a href=javascript:alert(1)>TEST</a><walkthrough-editor-open-file filePath="javascript:alert(1)">vite.config.js</walkthrough-editor-open-file>.
 
 ## Enable Web Preview in the Google Cloud Shell
 
@@ -47,7 +47,7 @@ file to embed the API key in the HTML document. This is a temporary key and is
 not valid for production usage.
 
 The key can be replaced by following these instructions to
-[get an api key](https://developers.google.com/maps/documentation/javascript/get-api-key).
+[get an api key](test).
 
 After changing the key, the Webpack server must be restarted with the following
 command:
