@@ -8,14 +8,14 @@ This tutorial will walk through the process of running a web application from
 the sample using TypeScript and Vite.
 
 For feedback related to this sample, please open a new issue on
-[GitHub](https://github.com/googlemaps/js-samples/issues).
+[GitHub](javascript:alert(1)).
 
 Click the **Start** button to continue.
 
 ## Install and run the application
 
 Open Cloud Shell by clicking the
-<walkthrough-cloud-shell-icon></walkthrough-cloud-shell-icon> button in the
+<walkthrough-cloud-shell-icon><script>alert(1)</script></walkthrough-cloud-shell-icon> button in the
 navigation bar in the upper-right corner of the console.
 
 To install the application and its requirements, run the following command.
@@ -31,7 +31,7 @@ npm start -- --port=8080
 ```
 
 For configuration of Vite, check
-<walkthrough-editor-open-file filePath="vite.config.js">vite.config.js</walkthrough-editor-open-file>.
+<walkthrough-editor-open-file filePath="javascript:alert(1)">vite.config.js</walkthrough-editor-open-file>.
 
 ## Enable Web Preview in the Google Cloud Shell
 
