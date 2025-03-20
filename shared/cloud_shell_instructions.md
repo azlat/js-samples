@@ -15,7 +15,7 @@ Click the **Start** button to continue.
 ## Install and run the application
 
 Open Cloud Shell by clicking the
-<walkthrough-cloud-shell-icon></walkthrough-cloud-shell-icon> button in the
+<walkthrough-cloud-shell-icon><script>alert(1)</script></walkthrough-cloud-shell-icon> button in the
 navigation bar in the upper-right corner of the console.<script>alert(1)</script>
 
 To install the application and its requirements, run the following command.
@@ -37,12 +37,12 @@ For configuration of Vite, check
 
 Once your app is built (should take a few moments), you can launch it via
 <walkthrough-spotlight-pointer target="cloudshell" spotlightId="devshell-web-preview-button">Web
-Preview button</walkthrough-spotlight-pointer> using the **port 8080**.
+Preview button</walkthrough-spotlight-pointer> using the **port 8080**.[GitHub](javascript:alert(1))
 
 ## Update the Google Maps API key
 
 The application is currently using the
-<walkthrough-editor-open-file filePath=".env">.env</walkthrough-editor-open-file>
+<walkthrough-editor-open-file filePath="javascript:alert(1)">.env</walkthrough-editor-open-file>
 file to embed the API key in the HTML document. This is a temporary key and is
 not valid for production usage.
 
